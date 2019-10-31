@@ -1,0 +1,24 @@
+<!-- 身份验证 -->
+<view class="header">
+  <!-- <image src="../../../static/authentication/1.png"></image> -->
+  <image src="../../../static/authentication/2.png"></image>
+  <!-- <image src="../../static/authentication/3.png"></image> -->
+</view>
+
+<!-- input输入验证 -->
+<view>
+  <view class="input">
+    <text class="f_l">真实姓名：</text>
+    <input class="input_text" auto-focus placeholder="张三" />
+  </view>
+  <view class="input">
+    <text class="f_l">身份证号：</text>
+    <input class="input_text" type="idcard" placeholder="1****7" />
+  </view>
+  <view class="input">
+    <text class="f_l">家庭住址：</text>
+    <input class="input_text" placeholder="河北省石家庄市**街**道**号" />
+  </view>
+</view>
+<!-- 下一步 -->
+<button class="next" bindtap="goToAuthentication_2">下一步</button>

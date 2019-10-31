@@ -1,0 +1,68 @@
+<!-- 身份认证 -->
+<view class="header">
+  <image src="../../static/authentication/1.png"></image>
+</view>
+<!-- 上传身份证 -->
+<view class="upload">
+  <view class="text">请拍摄并上传你的有效身份证:</view>
+  <view class="upload_image">
+    <view class="left">
+      <view class="box"></view>
+    </view>
+    <!-- <view class="left">
+      <view class="images">
+      <view class="box"></view> -->
+    <!-- <image src="../../static/authentication/positive.png" mode="aspectFit"></image> -->
+    <!-- </view>
+      <button bindtap="takePhoto">上传身份证正面</button>
+    </view>
+    <view class="left">
+      <view class="images">
+        <image src="../../static/authentication/reverse.png"></image>
+      </view>
+      <button bindtap="takePhoto">上传身份证反面</button>
+    </view> -->
+  </view>
+
+</view>
+<!-- 拍摄要求 -->
+<view class="require">
+  <view class="text">拍摄身份证要求：</view>
+  <view class="require_m">
+    <view>大陆公民持有的本人有效二代身份证；</view>
+    <view>拍摄时确保身份证
+      <text class="font">边框完整、字体清晰、亮度均匀；</text> </view>
+  </view>
+  <view class="require_rule">
+    <view class="photo">
+      <image src="../../static/authentication/standard.png"></image>
+      <view class="photo_label">
+        <image src="../../static/authentication/correct.png"></image>
+      </view>
+      <view class="label">标准</view>
+    </view>
+    <view class="photo">
+      <image src="../../static/authentication/deficiency.png"></image>
+      <view class="photo_label">
+        <image src="../../static/authentication/error.png"></image>
+      </view>
+      <view class="label">边框缺失</view>
+    </view>
+    <view class="photo">
+      <image src="../../static/authentication/blur.png"></image>
+      <view class="photo_label">
+        <image src="../../static/authentication/error.png"></image>
+      </view>
+      <view class="label">边框模糊</view>
+    </view>
+    <view class="photo">
+      <image src="../../static/authentication/flicker.png"></image>
+      <view class="photo_label">
+        <image src="../../static/authentication/error.png"></image>
+      </view>
+      <view class="label">闪光强烈</view>
+    </view>
+  </view>
+</view>
+<!-- 下一步 -->
+<button class="next" bindtap="goToAuthentication_1">下一步</button>

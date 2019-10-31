@@ -1,0 +1,12 @@
+<!-- 出租房屋登记 -->
+<view class="info">
+<!--出租户 -->
+  <view class="house_holds ">
+    <view>出租户信息</view>
+  </view>
+  <!-- 出租房屋 -->
+  <view class="house_rent ">
+    <view>出租房屋信息</view>
+  </view>
+</view>
+<button class="add"></button>

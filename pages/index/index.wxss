@@ -1,0 +1,39 @@
+.index image{
+  width: 750rpx;
+  height: 320rpx;
+}
+.index_service{
+  height: 68rpx;
+  line-height: 60rpx;
+  padding:10rpx 20rpx;
+  border-bottom: 4rpx solid #F5F5F5;
+}
+.index_service .title{
+  color: #2387FC;
+  margin-right: 20rpx;
+}
+.service{
+  display: block;
+  width: 750rpx;
+  height: 612rpx;
+  /* background-color: #2387FC; */
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #F5F5F5;  
+  padding: 20rpx 30rpx;
+}
+.service .icon{
+  width: 50%;
+  height: 200rpx;
+  /* background-color: #2387FC; */
+  /* margin: 5rpx 10rpx; */
+  display: inline-block;
+  padding: 30rpx 0;
+  box-sizing: border-box;
+  text-align: center;
+  /* border-right: 2rpx solid #F5F5F5;  */
+  border-bottom: 2rpx solid #F5F5F5;  
+}
+.icon image{
+  width: 80rpx;
+  height: 80rpx;
+}

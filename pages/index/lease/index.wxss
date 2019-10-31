@@ -1,0 +1,19 @@
+page{
+  width: 750rpx;
+  height: 1448rpx;
+  position: relative;
+  background-color: #F5F5F5;
+}
+.info{
+  width: 690rpx;
+  height: 355rpx;
+  margin: 10rpx 30rpx;
+  background-color: #fff;
+}
+.add{
+  width: 690rpx;
+  height: 90rpx;
+  margin: 20rpx 30rpx;
+  background-color: #fff;
+
+}

@@ -1,0 +1,35 @@
+<view class="index">
+  <navigator url="">
+    <image src="../../static/index/banner.png"></image>
+  </navigator>
+  <view class="index_service">
+    <text class="title">|</text>
+    <text>常用服务</text>
+  </view>
+  <!-- 常用服务 -->
+  <view>
+    <view class="service">
+      <navigator class="icon">
+        <image src="../../static/index/real_name.png"></image>
+        <view>实名注册</view>
+      </navigator>
+      <navigator class="icon">
+        <image src="../../static/index/leaser.png"></image>
+        <view>出租房屋登记</view>
+      </navigator>
+      <navigator class="icon">
+        <image src="../../static/index/renter.png"></image>
+        <view>承租人/同租人登记</view>
+      </navigator>
+      <navigator class="icon">
+        <image src="../../static/index/population.png"></image>
+        <view>流动人口登记</view>
+      </navigator>
+      <navigator class="icon">
+        <image src="../../static/index/report.png"></image>
+        <view>匿名举报</view>
+      </navigator>
+
+    </view>
+  </view>
+</view>

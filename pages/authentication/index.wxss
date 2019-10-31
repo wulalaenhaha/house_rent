@@ -1,0 +1,156 @@
+page {
+  width: 750rpx;
+  height: 1448rpx;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.header {
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.header image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 拍摄上传 */
+
+.upload {
+  width: 750rpx;
+  height: 400rpx;
+  padding: 32rpx 30rpx;
+  background-color: #fff;
+}
+
+.text {
+  font-size: 32rpx;
+  color: #868686;
+}
+
+.upload_image {
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 31rpx;
+}
+
+.upload .left {
+  width: 324rpx;
+  height: 279rpx;
+  margin-right: 30rpx;
+  float: left;
+  background-color: rgba(35, 136, 252, 0.144);
+}
+
+.box {
+  width: 224rpx;
+  height: 164rpx;
+  border: 1rpx dashed #ccc;
+  margin: 27rpx 40rpx;
+  /* background: url('../../static/authentication/positive.png') no-repeat; */
+  background-size: 100% 100%;
+}
+
+/* .upload .right{
+  width: 324rpx;
+  height: 279rpx;
+  float: right;
+}
+.upload .images{
+  width: 324rpx;
+  height: 219rpx;
+  padding: 22rpx;
+  box-sizing: border-box;
+  background-color: rgba(35, 136, 252, 0.144);
+  text-align: center;
+} */
+
+/* .upload .box{
+  width: 244rpx;
+  height: 164rpx;
+  background-color: red;
+  margin: 20rpx 29rpx;
+  border: 1rpx dashed #ccc;
+  background-image: url(../../static/authentication/positive.png) no-repeat center/cover; 
+}
+.upload image{
+  width: 244rpx;
+  height: 164rpx;
+  background-image: url(../../static/authentication/positive.png) no-repeat center/cover; 
+  border: 1rpx dashed #ccc;
+} */
+
+.upload button {
+  font-size: 26rpx;
+  background-color: #2387fc;
+}
+
+/* 拍摄要求 */
+
+.require {
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 20rpx;
+  padding: 30rpx 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.require .require_m {
+  margin-top: 20rpx;
+  height: 68rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+
+.require_m .font {
+  color: red;
+}
+
+/* 图片对比规则 */
+
+.require_rule {
+  height: 246rpx;
+}
+
+.require_rule .photo {
+  width: 160rpx;
+  height: 96rpx;
+  float: left;
+  text-align: center;
+  position: relative;
+  margin: 60rpx 5rpx 0 5rpx;
+  border: 1rpx dashed #ccc;
+}
+
+.photo image {
+  width: 100%;
+  height: 100%;
+}
+
+.photo .photo_label {
+  width: 44rpx;
+  height: 44rpx;
+  border: 1rpx dashed #ccc;
+  position: absolute;
+  bottom: -22rpx;
+  left: 60rpx;
+}
+
+.photo .label {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #919191;
+}
+
+.next {
+  width: 690rpx;
+  height: 88rpx;
+  font-size: 34rpx;
+  color: #fff;
+  position: absolute;
+  left: 30rpx;
+  bottom: 73rpx;
+  background-color: #2387fc;
+}

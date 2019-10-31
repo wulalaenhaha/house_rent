@@ -1,0 +1,46 @@
+page{
+  width: 750rpx;
+  height: 1448rpx;
+  position: relative;
+  background-color: #F5F5F5;
+}
+.header {
+  width: 750rpx;
+  height: 200rpx;
+}
+.header image{
+  width: 100%;
+  height: 100%;
+}
+
+.pass{
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.pass .photo{
+  width: 180rpx;
+  height: 180rpx;
+  margin: 190rpx 285rpx 0;
+}
+.pass .photo image{
+  width: 100%;
+  height: 100%;
+}
+.text{
+  color: #868686;
+}
+.text .h2{
+  margin: 40rpx 0;
+  font-size:58rpx;
+  color: #000000;
+}
+.next{
+  width: 690rpx;
+  height: 88rpx;
+  font-size: 34rpx;
+  color: #fff;
+  position: absolute;
+  left: 30rpx;
+  bottom: 73rpx;
+  background-color: #2387FC;
+}

@@ -1,0 +1,18 @@
+<!-- 身份验证——3 -->
+<view class="header">
+  <image src="../../../static/authentication/3.png"></image>
+</view>
+<!-- 认证完成 -->
+<view class="pass">
+  <view class="photo">
+    <image src="../../../static/authentication/pass.png"></image>
+  </view>
+  <view class="text">
+    <view class="h2">认证成功！</view>
+    <view>恭喜您！</view>
+    <view>已完成实名认证，可返回查看。</view>
+  </view>
+</view>
+<!-- 完成 -->
+<button class="next"  bindtap="goTo">完成</button>
+
